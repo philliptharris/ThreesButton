@@ -22,6 +22,7 @@
 		1123188419229EE800D98338 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1123186319229EE800D98338 /* UIKit.framework */; };
 		1123188C19229EE800D98338 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1123188A19229EE800D98338 /* InfoPlist.strings */; };
 		1123188E19229EE800D98338 /* ThreesButtonExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1123188D19229EE800D98338 /* ThreesButtonExampleTests.m */; };
+		112318991922A45400D98338 /* ThreesButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 112318981922A45400D98338 /* ThreesButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		1123188919229EE800D98338 /* ThreesButtonExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThreesButtonExampleTests-Info.plist"; sourceTree = "<group>"; };
 		1123188B19229EE800D98338 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1123188D19229EE800D98338 /* ThreesButtonExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreesButtonExampleTests.m; sourceTree = "<group>"; };
+		112318971922A45400D98338 /* ThreesButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreesButton.h; sourceTree = "<group>"; };
+		112318981922A45400D98338 /* ThreesButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreesButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				1123187419229EE800D98338 /* Main_iPad.storyboard */,
 				1123187719229EE800D98338 /* ViewController.h */,
 				1123187819229EE800D98338 /* ViewController.m */,
+				112318971922A45400D98338 /* ThreesButton.h */,
+				112318981922A45400D98338 /* ThreesButton.m */,
 				1123187A19229EE800D98338 /* Images.xcassets */,
 				1123186619229EE800D98338 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112318991922A45400D98338 /* ThreesButton.m in Sources */,
 				1123187919229EE800D98338 /* ViewController.m in Sources */,
 				1123187019229EE800D98338 /* AppDelegate.m in Sources */,
 				1123186C19229EE800D98338 /* main.m in Sources */,

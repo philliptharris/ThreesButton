@@ -51,7 +51,7 @@
     frame.origin.y += _popHeight;
     
     _underView = [[UIView alloc] initWithFrame:frame];
-    _underView.backgroundColor = [self darkerColorFromColor:[UIColor purpleColor]];
+    _underView.backgroundColor = [UIColor colorWithRed:204.0/255.0 green:81.0/255.0 blue:123.0/255.0 alpha:1.0];
     _underView.userInteractionEnabled = NO;
     _underView.layer.cornerRadius = 5.0;
     [self addSubview:_underView];
@@ -60,11 +60,11 @@
     frame.size.height -= _popHeight;
     
     _mainLabel = [[UILabel alloc] initWithFrame:frame];
-    _mainLabel.backgroundColor = [UIColor purpleColor];
+    _mainLabel.backgroundColor = [UIColor colorWithRed:255.0/255.0 green:102.0/255.0 blue:128.0/255.0 alpha:1.0];
     _mainLabel.textColor = [UIColor whiteColor];
-    _mainLabel.text = @"PRESS";
+    _mainLabel.text = @"MAIN  MENU";
     _mainLabel.textAlignment = NSTextAlignmentCenter;
-    _mainLabel.font = [UIFont boldSystemFontOfSize:16.0];
+    _mainLabel.font = [UIFont fontWithName:@"ArialRoundedMTBold" size:28.0];
     _mainLabel.layer.cornerRadius = 5.0;
     _mainLabel.clipsToBounds = YES;
     [self addSubview:_mainLabel];

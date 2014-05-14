@@ -476,6 +476,7 @@
 				1123189319229EE800D98338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1123189419229EE800D98338 /* Build configuration list for PBXNativeTarget "ThreesButtonExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +485,7 @@
 				1123189619229EE800D98338 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
